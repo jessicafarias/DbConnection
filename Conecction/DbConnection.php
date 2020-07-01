@@ -27,7 +27,7 @@
                     echo "FAIL:" . $this->connection->connect_error;
                 }
                 else{
-                        echo "CONECTADO MADAFAKA";}
+                        echo "CONECTADO PATRONA";}
         }
 
         protected function closeConnection() {

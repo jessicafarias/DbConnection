@@ -7,10 +7,10 @@
     public static function getDatabase(){
 
         if (self::$connection == null) {
-            $url = "host";
-            $user = "user";
-            $passw = "password";
-            $db = "name";
+            $url = "fdb24.awardspace.net";
+            $user = "3328198_db";
+            $passw = "125789jJ";
+            $db = "3328198_db";
             self::$connection = new Database($url, $user, $passw, $db);
         }
         return self::$connection;
