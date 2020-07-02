@@ -1,17 +1,24 @@
-<!DOCTYPE html>
-<html>
-    <head>
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>Formulario</title>
+	<link href="styles.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400' rel='stylesheet' type='text/css'>
+</head>
 
-    </head>
-    <body>
-        <form>
-            <div>
-                <form action="Conecction\FrontPage.php" method="post">
-                    Nombre: <input type="text" name="nombre"/>
-                    <button type="submit" value="clickonme">LC</button>
-                </form>
-            </div>
-        </form>
-        <!-- laksalka-->
-    </body>
+<body>
+	<form action="Connecction/Sent.php" method="post" class="form-consulta"> 
+		<label>Nombre y apellido: <span>*</span>
+			<input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
+		</label>
+		<label>Email: <span>*</span>
+			<input type="email" name="email" placeholder="Email" class="campo-form" required>
+		</label>
+		<label>Consulta:
+			<textarea name="consulta" class="campo-form"></textarea>
+		</label>
+		<input type="submit" value="Enviar" class="btn-form">
+	</form>
+</body>
 </html>

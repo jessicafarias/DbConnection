@@ -1,0 +1,12 @@
+
+/* reglas CSS para formulario */
+.form-consulta {max-width: 500px; background: #eee; padding: 25px; font-family: 'Source Sans Pro', sans-serif;}
+.campo-form {width:100%; height:36px; margin:2px 0 6px; padding-left:6px; box-sizing: border-box; border-radius:3px; border:0; font-family: 'Source Sans Pro', sans-serif; font-size:1em;}
+label span {color: #f00}
+textarea {min-height: 150px!important;}
+.btn-form {display: inline-block; border:0; background: #000; height: 46px; line-height: 46px; padding: 0 20px; border-radius: 6px; color:#fff; text-decoration: none; text-transform: uppercase; letter-spacing: 1px}
+.btn-form:hover {background: #444}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
