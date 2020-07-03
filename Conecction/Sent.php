@@ -11,6 +11,7 @@ else{
 
     $subject = "Consulta";
     $body = $_POST["consulta"];
+    
     if(mail($to,$subject,$body,$from)){
         echo 'E-mail message sent!';
         include 'success.html'; 
