@@ -74,6 +74,6 @@
         }
 
         public static function update($id_socio, $nombre){
-            self::getConnection()->executeQuery("UPDATE socios SET nombre = $nombre WHERE id = $id_socio;");}
+            self::getConnection()->executeQuery("UPDATE socios SET nombre = ' $nombre ' WHERE id = $id_socio");}
     }
 ?>
